@@ -97,4 +97,4 @@ for i in range(len(str)):
 
 
 if parenthesesBalance(str):
-    print("1,성공")
+    print("성공")
