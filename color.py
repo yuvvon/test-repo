@@ -1,3 +1,4 @@
+#색깔 조합 
 class ColorCombination:
     """
     class for represent color combination
