@@ -128,7 +128,7 @@ combinations = [
     ColorCombination("SUNNYYELLOW", "NAVY"),
     ColorCombination("WHITE", "NAVY"),
     ColorCombination("RED", "NAVY"),
-    ColorCombination("BLACK", "NAVY"),
+    
 ]
 """
 list for store color combination 
