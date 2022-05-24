@@ -1,4 +1,4 @@
-import sys
+import sys #sys참조
 
 
 class Stack:
