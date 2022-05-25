@@ -1,4 +1,4 @@
-#색깔 조합 객체
+#색깔 조합 객체 
 class ColorCombination:
     """
     class for represent color combination
