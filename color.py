@@ -46,6 +46,7 @@ data reference
         https://m.blog.naver.com/ktaitai1/221936224085
 """
 combinations = [
+    ColorCombination("WHITE", "KAKI"),
     ColorCombination("WHITE", "DARKBLUE"),
     ColorCombination("WHITE", "LIGHTBLUE"),
     ColorCombination("WHITE", "BEIGE"),
