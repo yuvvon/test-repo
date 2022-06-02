@@ -34,7 +34,7 @@ def parenthesesBalance(list):
 
     s = Stack() #스택선언
     
-    index = Stack()
+    index = Stack()     
     line = Stack()
     openParenthesis = '({['  # openParenthesis = ('(','{','[')
     closeParenthesis = ')}]'
