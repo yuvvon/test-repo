@@ -146,7 +146,7 @@ class ArrayList:
             return None
         else:
             self. items.insert(pos, elem)
-
+#이진트리 
 
 class LinkedList:
     def __init__(self):
