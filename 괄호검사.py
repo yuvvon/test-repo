@@ -91,12 +91,13 @@ def parenthesesBalance(list):
 
 
 str = sys.stdin.readlines()
+while True:
+    for i in range(len(str)):
+        str[i] = str[i].strip()
 
-for i in range(len(str)):
-    str[i] = str[i].strip()
 
-
-if parenthesesBalance(str):
-    print("성공")
-else:
-    print("실패,다시 입력하세요")
+    if parenthesesBalance(str):
+        print("성공")
+        break
+    else:
+        print("실패,다시 입력하세요")
