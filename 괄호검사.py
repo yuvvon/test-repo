@@ -99,4 +99,4 @@ for i in range(len(str)):
 if parenthesesBalance(str):
     print("성공")
 else:
-    print("실패")
+    print("실패,다시 입력하세요")
