@@ -142,7 +142,7 @@ class Course:  # 수업
 
 clas = Course()
 
-
+#무한루프문 사용
 while True:
     command = input().split()
     if command[0] == 'N':
