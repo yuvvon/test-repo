@@ -1,6 +1,6 @@
 #자료구조
 #stack.py파일 참조<- 추상적자료형 구현파일 
-
+#이진트리 활용 학생 조회 
 class Student:
     def __init__(self, st_no, name, dept, grade, score=None):
         self.st_no = st_no
