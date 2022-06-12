@@ -1,6 +1,6 @@
 # test-repo
 Test repository/
 new onew
-stack.py
+/stack.py
 color.py
 main.py
