@@ -4,7 +4,7 @@ def get_combi(where: str, color: str) -> list:
         for co in combinations:
             if co.top == color:
                 corList.append(co.bottom)
-    elif "BOTTOM" in where: 
+    elif "BOTTOM" in where:     #입력한 색상= 하의
         for co in combinations:
             if co.bottom == color:
                 corList.append(co.top)
