@@ -1,0 +1,11 @@
+def get_combi(where: str, color: str) -> list:
+    corList = []
+    if "TOP" in where:
+        for co in combinations:
+            if co.top == color:
+                corList.append(co.bottom)
+    elif "BOTTOM" in where:
+        for co in combinations:
+            if co.bottom == color:
+                corList.append(co.top)
+    return corList
