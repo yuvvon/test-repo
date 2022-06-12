@@ -1,10 +1,10 @@
 def get_combi(where: str, color: str) -> list:
     corList = []        #어울리는 색상을 저장하는 리스트
-    if "TOP" in where:
+    if "TOP" in where:      #입력한 색상=상의
         for co in combinations:
             if co.top == color:
                 corList.append(co.bottom)
-    elif "BOTTOM" in where:
+    elif "BOTTOM" in where: 
         for co in combinations:
             if co.bottom == color:
                 corList.append(co.top)
