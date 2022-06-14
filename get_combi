@@ -1,4 +1,4 @@
-class ColorCombination:
+class ColorCombination: #색깔조합 클래스
     """
     class for represent color combination
     """
