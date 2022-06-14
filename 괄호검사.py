@@ -9,7 +9,7 @@ class Stack:
         return len(self.items) == 0
 
     def clear(self):
-        self.items = []
+        self.items = []     #스택 
 
     def push(self, e):
         self.items.append(e)
