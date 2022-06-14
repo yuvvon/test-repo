@@ -127,7 +127,7 @@ combinations = [
     ColorCombination("RED", "NAVY"),
     ColorCombination("BLACK", "NAVY"),
 ]
-def get_combi(where: str, color: str) -> list:
+def get_combi(where: str, color: str) -> list:  #where= 상의,하의 위치 color=색상
     corList = []        #어울리는 색상을 저장하는 리스트
     if "TOP" in where:      #입력한 색상=상의
         for co in combinations:
