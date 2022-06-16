@@ -54,7 +54,7 @@ class Course:  # 수업
         else:
             return self._minNode(node.left)
 
-    def withdraw(self, num):
+    def withdraw(self, num):    #
         self.size -= 1
         self.root = self._deleteSubtree(self.root, num)
 
